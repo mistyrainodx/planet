@@ -32,4 +32,5 @@ urlpatterns = [
     url(r'^$', index),
     url(r'^index/$', index),
     url(r'^users/', include("user.urls")),
+    url(r'^posts/', include("post.urls")),
 ]
